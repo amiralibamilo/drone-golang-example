@@ -9,11 +9,6 @@ clone:
     tags: true
 
 pipeline:
-  testing:
-    image: golang:1.10.0
-    commands:
-      - go test -v .
-      - go vet
   node:
       image: node
       commands:
@@ -26,8 +21,3 @@ pipeline:
     image: php
     commands:
       - php --version
-
-  java:
-    image: java
-    commands:
-      - java --version
