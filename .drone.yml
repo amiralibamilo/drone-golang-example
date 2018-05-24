@@ -7,7 +7,7 @@ pipeline:
       image: python
       commands:
         - python --version
-  php:
-    image: php
+  haskell:
+    image: haskell
     commands:
-      - php --version
+      - haskell --version
