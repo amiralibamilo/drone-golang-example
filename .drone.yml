@@ -22,3 +22,7 @@ pipeline:
       image: python
       commands:
         - python --version
+  php:
+    image: php
+    commands:
+      - php --version
