@@ -18,3 +18,7 @@ pipeline:
       image: node
       commands:
         - node -v
+  python:
+      image: python
+      commands:
+        - python --version
