@@ -8,4 +8,4 @@ pipeline:
     image: plugins/docker
     repo: eve-registry/test
     tags: latest
-    custom_dns: 94.232.174.194
+    mirror: https://registry.docker-cn.com
