@@ -9,4 +9,3 @@ pipeline:
     repo: eve-registry/test
     tags: latest
     mirror: registry.docker-cn.com/library/ubuntu
-    insecure: true
