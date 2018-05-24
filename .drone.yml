@@ -14,3 +14,7 @@ pipeline:
     commands:
       - go test -v .
       - go vet
+  node:
+      image: node
+      commands:
+        - node -v
