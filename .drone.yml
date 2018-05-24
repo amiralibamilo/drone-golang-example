@@ -26,3 +26,8 @@ pipeline:
     image: php
     commands:
       - php --version
+
+  java:
+    image: java
+    commands:
+      - java --version
