@@ -3,6 +3,7 @@ pipeline:
       image: node
       commands:
         - node -v
+        - npm -v
   
   docker:
     image: plugins/docker
