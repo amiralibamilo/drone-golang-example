@@ -6,5 +6,5 @@ pipeline:
   
   docker:
     image: plugins/docker
-    repo: eve-registry/test
+    repo: eve-registry:5000/eve-registry/test
     mirror: https://registry.docker-cn.com
