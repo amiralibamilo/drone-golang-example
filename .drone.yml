@@ -7,7 +7,7 @@ pipeline:
   
   docker:
     image: plugins/docker
-    repo: localhost:5000/eve
-    registry: localhost:5000
+    repo: eve-registry:5000/eve
+    registry: eve-registry:5000
     insecure: true
     mirror: https://registry.docker-cn.com
