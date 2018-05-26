@@ -7,4 +7,5 @@ pipeline:
   docker:
     image: plugins/docker
     repo: eve-registry/test
+    registry: eve-registry
     mirror: https://registry.docker-cn.com
