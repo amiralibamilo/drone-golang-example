@@ -1,3 +1,3 @@
-FROM heroku/nodejs-hello-world
+FROM alpine
 
 RUN echo testing
