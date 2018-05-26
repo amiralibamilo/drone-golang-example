@@ -6,6 +6,7 @@ pipeline:
   
   docker:
     image: plugins/docker
-    repo: eve-registry/test
+    repo: test
     registry: eve-registry
+    insecure: true
     mirror: https://registry.docker-cn.com
